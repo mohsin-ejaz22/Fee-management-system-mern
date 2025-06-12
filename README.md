@@ -3,6 +3,11 @@ command = npm run dev:
 To run backend:
 command= npm start:
 
+
+TOKEN_KEY =your secret key:
+dbAtlasUrl=your mongo url:
+
+
 # 🎓 Fee Management System – MERN Stack
 A complete fee management application using the MERN stack. This project allows admins to manage student fee records, upload Excel files for bulk data import, search by roll number, and perform secure CRUD operations.
 
@@ -21,4 +26,4 @@ A complete fee management application using the MERN stack. This project allows 
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB with Mongoose
 - **Authentication:** JWT (JSON Web Token)
-- **Excel Handling:** `xlsx`, `multer`
+- **Excel Handling:** `xlsx`.
